@@ -6,9 +6,7 @@ Notes from [Cloud Native Foundations](https://www.udacity.com/scholarships/suse-
 
 Projects include Python, Docker, Kubernetes, the CLI, Git 
 
-# Lesson 1
-
-## Intro to Cloud-Native
+# Lesson 1: Intro to Cloud-Native
 
 **Cloud native** a set of practices that empowers an organization to build and manage applications at scale. 
 
@@ -41,7 +39,7 @@ Use cloud-native tooling to enable quick delivery of value to customers and easi
 - business (agility - perform transformations, growth - quickly iterate based on feedback, and service avail. - 24/7)
 - technical (automation, orchestration - to mng 1000s of svcs w/ minimal effort, observability - independently and debug each component)
 
-# Lesson 2
+# Lesson 2: Architecture Consideration for CN Apps
 
 ## Intro 
 
@@ -137,7 +135,6 @@ These practices are focused on health checks, metrics, logs, tracing, and resour
 Resources
 [Microservice Architecture](https://microservices.io/index.html)
 
-
 ---
 
 ## Edge Case: Amorphous Applications
@@ -153,9 +150,15 @@ Any of these operations increases the longevity and continuity of a project. End
 - **replace operation** - is adopted when a more efficient implementation is identified for a service. For example, rewriting a Java service in Go, to optimize the overall execution time.
 - **stale operation** - is performed for services that are no longer providing any business value, and should be archived or deprecated. For example, services that were used to perform a one-off migration process.
 
-# Lesson 3
+# Lesson 3: Container Orchestration with Kubernetes
 
-# Lesson 4
 
-# Lesson 5
+
+# Lesson 4: Open Source PaaS
+
+
+
+# Lesson 5: CI/CD with Cloud Native Tooling
+
+
 
