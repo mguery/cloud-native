@@ -2,7 +2,7 @@
 
 **Learning how to construct a CI/CD pipeline that will containerize an application and deployed it to a Kubernetes cluster.**
 
-Course notes from [Cloud Native Foundations](https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship)
+Notes from [Cloud Native Foundations](https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship)
 
 # Lesson 1
 
