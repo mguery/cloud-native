@@ -176,6 +176,26 @@ To build an image using the Dockerfile from the current directory
 To build an image using the Dockerfile from the 'lesson1/python-app' directory
 `docker build -t python-helloworld lesson1/python-app`
 
+To run the `python-helloworld` image, in detached mode and expose it on port `5111`
+`docker run -d -p 5111:5000 python-helloworld`
+
+To retrieve the Docker container logs use the docker logs {{ CONTAINER_ID }} command. For example: `docker logs 95173091eb5e`
+
+### Docker Registry
+
+A central mechanism to store and distribute Docker images. The image needs to be pushed to a public Docker image registry, such as DockerHub (so other engineers have access to it).
+
+Before pushing an image to a Docker registry, it is highly recommended to tag it first. During the build stage, if a tag is not provided (via the -t or --tag flag)
+
+format - `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]`
+example - `docker tag python-helloworld pixelpotato/python-helloworld:v1.0.0`
+
+Once the image is tagged, the final step is to push the image to a registry.
+`docker push pixelpotato/python-helloworld:v1.0.0`
+
+Resources 
+- [Best practies for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) 
+- Docker notes - <https://github.com/mguery/docker>
 
 # Lesson 4: Open Source PaaS
 
