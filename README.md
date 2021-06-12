@@ -152,6 +152,29 @@ Any of these operations increases the longevity and continuity of a project. End
 
 # Lesson 3: Container Orchestration with Kubernetes
 
+## Docker for Application Packaging
+
+### Dockerfile
+A set of instructions used to create a Docker image
+
+FROM - to set the base image 
+LABEL - `LABEL maintainer=Marjy G`
+RUN - to execute a command 
+COPY & ADD  - to copy files from host to the container 
+CMD - to set the default command to execute when the container starts
+EXPOSE - to expose an application port 
+
+
+### Docker Image
+A read-only template that enables the creation of a runnable instance of an application. In a nutshell, a Docker image provides the execution environment for an application
+
+To build an image `docker build`
+
+To build an image using the Dockerfile from the current directory
+`docker build -t python-helloworld .`
+
+To build an image using the Dockerfile from the 'lesson1/python-app' directory
+`docker build -t python-helloworld lesson1/python-app`
 
 
 # Lesson 4: Open Source PaaS
