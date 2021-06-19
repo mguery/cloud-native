@@ -4,7 +4,7 @@
 
 Notes from [Cloud Native Foundations](https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship)
 
-Projects include Python, Docker, Kubernetes, the CLI, Git 
+Hands-on: Python and Flask, Docker, Kubernetes, the CLI, Git 
 
 # Lesson 1: Intro to Cloud-Native
 
