@@ -197,6 +197,8 @@ Resources
 - [Best practies for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) 
 - Docker notes - <https://github.com/mguery/docker>
 
+
+
 # Lesson 4: Open Source PaaS
 
 
