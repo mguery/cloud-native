@@ -4,8 +4,6 @@
 
 Notes from [Cloud Native Foundations](https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship)
 
-Hands-on: Python and Flask, Docker, Kubernetes, the CLI, Git 
-
 # Lesson 1: Intro to Cloud-Native
 
 **Cloud native** a set of practices that empowers an organization to build and manage applications at scale. 
